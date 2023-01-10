@@ -32,6 +32,8 @@ int main()
             scanf("%d", &quantity);
             Amount1 = quantity * 180;
             printf("\nAmount= %d.Rs", Amount1);
+            Total_Amount =Total_Amount+ Amount1;
+            printf("\nTotal amount :%d",Total_Amount);
             printf("\n----------------------------------------------");
             break;
         case 2:
@@ -40,6 +42,8 @@ int main()
             scanf("%d", &quantity);
             Amount2 = quantity * 100;
             printf("\nAmount= %d.Rs", Amount2);
+            Total_Amount =Total_Amount+ Amount2;
+            printf("\nTotal amount :%d",Total_Amount);
             printf("\n----------------------------------------------");
             break;
         case 3:
@@ -48,6 +52,8 @@ int main()
             scanf("%d", &quantity);
             Amount3 = quantity * 120;
             printf("\nAmount= %d.Rs", Amount3);
+            Total_Amount =Total_Amount+ Amount3;
+            printf("\nTotal amount :%d",Total_Amount);
             printf("\n----------------------------------------------");
             break;
         case 4:
@@ -56,6 +62,8 @@ int main()
             scanf("%d", &quantity);
             Amount4 = quantity * 50;
             printf("\nAmount= %d.Rs", Amount4);
+            Total_Amount =Total_Amount+ Amount4;
+            printf("\nTotal amount :%d",Total_Amount);
             printf("\n----------------------------------------------");
             break;
         default:
@@ -74,7 +82,7 @@ int main()
     case 2:
     bill:
         printf("\n`````````Bill`````````\n\n");
-        Total_Amount = Amount1 + Amount2 + Amount3 + Amount4;
+        //Total_Amount = Amount1 + Amount2 + Amount3 + Amount4;
         printf("\nTotal Bill=%d.Rs\n\n", Total_Amount);
         printf("\n-----------------------------------\n");
         printf("/ / / / thanks for visiting \\ \\ \\ \\\n");
